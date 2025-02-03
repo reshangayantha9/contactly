@@ -1,0 +1,56 @@
+# ====== .NET Core (crud) ======
+bin/
+obj/
+*.db
+*.db-shm
+*.db-wal
+*.log
+*.pdb
+*.cache
+*.vs/
+.vscode/
+appsettings.json
+appsettings.Development.json
+
+# ====== Angular/Node.js (UI/contactly.web) ======
+UI/contactly.web/node_modules/
+UI/contactly.web/dist/
+UI/contactly.web/tmp/
+UI/contactly.web/out-tsc/
+UI/contactly.web/bazel-out/
+UI/contactly.web/npm-debug.log
+UI/contactly.web/yarn-error.log
+
+# ====== IDEs and Editors ======
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# ====== Visual Studio Code ======
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# ====== Miscellaneous ======
+/.angular/cache
+.sass-cache/
+connect.lock
+coverage/
+libpeerconnection.log
+testem.log
+typings/
+
+# ====== System Files ======
+.DS_Store
+Thumbs.db
+
+# Ensure UI/contactly.web is included
+!UI/contactly.web/
+!UI/contactly.web/*
